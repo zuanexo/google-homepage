@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#navbar {
+    box-shadow: 0px 2px 3px 0px black;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 1em;
+}
+#navbar > div {
+    margin: 1em;
+}
+
+#user {
+    background-color: brown;
+    border-radius: 50%;
+    
+    text-align: center;
+    
+    border: 1px;
+    border-style: double;
+    border-width: 1em;
+    border-color: brown;
+
+    color: white;
+}
+
+#main {
+    display: flex;
+    flex-flow: column;
+}
