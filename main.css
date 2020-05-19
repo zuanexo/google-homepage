@@ -1,10 +1,12 @@
 body {
     font-family: Arial, sans-serif;
+    
 }
 #navbar {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    color: rgba(0, 0, 0, 0.85);
 }
 #navbar > div {
     margin: 1em;
@@ -29,21 +31,25 @@ body {
 #main {
     display: flex;
     flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 footer {
     display: flex;
     flex-direction: column;
     position: absolute;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
+    bottom: -1px;
+    left: -1px;
+    right: -1px;
+    color: rgba(0, 0, 0, 0.54);
 }
 footer>div {
-    background-color: lightgray;
+    background-color: #f2f2f2;
     padding: 1em;
+    border: 1px solid rgb(228, 228, 228);
 }
 #bottom {
     display: flex;
-    border-top: 1px solid gray;
+    border-top: 0px solid ;
     justify-content: space-between;
 }
